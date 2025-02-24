@@ -3,13 +3,13 @@
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
-  void Function()? onTap;
+  final void Function()? onTap;
   final Color borderColor;
   final Color backgroundColor;
   final Color textColor;
   final String text;
 
-  MyButton({
+  const MyButton({
     super.key,
     required this.onTap,
     required this.borderColor,
